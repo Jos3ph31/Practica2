@@ -1,0 +1,49 @@
+.encabezado{
+    position: fixed;
+    background-color: #0FF007;
+    color: black;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 120px;
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 22px;
+    margin: 0 15px;
+    line-height: 80px;
+}
+
+.nav-menu-link{
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover{
+    background-color: #5A0787;
+    animation-delay: 0.5s;
+}
